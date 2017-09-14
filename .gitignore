@@ -1,0 +1,6 @@
+.env
+testJson
+local
+.DS_Store
+sessions.db
+node_modules
