@@ -13,7 +13,7 @@ describe('Simple api test', function () {
 	  * Test the /GET route
 	  */
 	describe('/GET theUltimateAnswer', function () {
-		it('it should GET a response with 42 as the answer', function (done) {
+		it('it should GET the the answer to life the universe and everything', function (done) {
 			chai.request(server)
 				.get('/api/theUltimateAnswer')
 				.end(function (err, res) {
